@@ -8,7 +8,8 @@
 <meta property="og:title" content="李政学&旷小伟婚礼请帖">
 <meta property="og:description" content="诚挚邀请您见证我们的幸福时刻">
 <meta property="og:type" content="website">
-<meta property="og:image" content="assets/share-thumb.jpg">
+<meta property="og:image" content="https://lizhengxue520.github.io/wedding-invitation/assets/share-thumb.jpg">
+<meta itemprop="image" content="https://lizhengxue520.github.io/wedding-invitation/assets/share-thumb.jpg">
 <style>
   :root{
     --ivory:#FBF5EC;
@@ -140,6 +141,28 @@
     letter-spacing:.06em;
   }
 
+  /* ---------- 时间地点 ---------- */
+  .info{text-align:center;margin-top:14px}
+  .info-date{
+    font-size:22px;letter-spacing:.12em;color:var(--ink);font-weight:600;
+  }
+  .info-date span{
+    font-size:13px;color:var(--gold);letter-spacing:.2em;margin-left:8px;
+  }
+  .info-lunar{font-size:12px;color:var(--ink-soft);margin-top:6px;letter-spacing:.2em}
+  .info-addr{
+    margin-top:14px;font-size:15px;line-height:1.9;color:var(--ink);letter-spacing:.06em;
+  }
+  .info-addr small{display:block;font-size:12px;color:var(--ink-soft);letter-spacing:.18em;margin-bottom:2px}
+  .map-btn{
+    display:inline-block;margin-top:16px;padding:10px 28px;
+    border-radius:999px;text-decoration:none;
+    background:linear-gradient(135deg,var(--gold),#D3B078);
+    color:#fff;font-size:13px;letter-spacing:.22em;
+    box-shadow:0 6px 18px rgba(185,145,90,.35);
+  }
+  .map-btn:active{transform:scale(.96)}
+
   /* ---------- 音乐按钮 ---------- */
   .music-btn{
     position:fixed;top:18px;right:18px;z-index:50;
@@ -183,7 +206,7 @@
     <div class="divider"></div>
     <h1>李政学<span class="amp">&amp;</span>旷小伟</h1>
     <p class="sub">婚礼请帖</p>
-    <p class="date">诚挚邀请您见证我们的幸福时刻</p>
+    <p class="date">2026 . 10 . 01 · 诚挚邀请您见证我们的幸福时刻</p>
   </header>
 
   <!-- 视频 -->
@@ -192,6 +215,16 @@
     <div class="video-wrap">
       <video src="assets/video.mp4" poster="assets/cover.jpg"
              controls playsinline webkit-playsinline preload="metadata"></video>
+    </div>
+  </section>
+
+  <!-- 时间地点 -->
+  <section class="card">
+    <h2 class="card-title">婚礼时间 · 地点<small>When &amp; Where</small></h2>
+    <div class="info">
+      <p class="info-date">2026年10月1日<span>星期四 · 国庆节</span></p>
+      <p class="info-addr"><small>婚礼地址</small>湖南省衡阳市衡山县贯塘茶场</p>
+      <a class="map-btn" href="https://uri.amap.com/search?keyword=%E6%B9%96%E5%8D%97%E7%9C%81%E8%A1%A1%E9%98%B3%E5%B8%82%E8%A1%A1%E5%B1%B1%E5%8E%BF%E8%B4%AF%E5%A1%98%E8%8C%B6%E5%9C%BA&callnative=1" target="_blank" rel="noopener">点击查看地图导航</a>
     </div>
   </section>
 
